@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from mss.darwin import MSS as mss
+from mss import mss
 from PIL import Image
 
 mon = {'top': 160, 'left': 160, 'width': 200, 'height': 200}
